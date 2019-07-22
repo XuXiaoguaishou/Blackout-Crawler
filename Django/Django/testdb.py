@@ -16,10 +16,10 @@ def testdb(request):
     list = Test.objects.all()
 
     # filter相当于SQL中的WHERE，可设置条件过滤结果
-    response2 = Test.objects.filter(id=1)
+    response2 = Test.objects.filter(id=2)
 
     # 获取单个对象
-    response3 = Test.objects.get(id=1)
+    response3 = Test.objects.get(id=2)
 
     # 限制返回的数据 相当于 SQL 中的 OFFSET 0 LIMIT 2;
     Test.objects.order_by('name')[0:2]
