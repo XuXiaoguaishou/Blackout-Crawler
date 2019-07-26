@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .crawler_recode import crawler
+from .crawler_selenium_newspapaer_recode import crawler
 
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
@@ -17,7 +17,8 @@ def search_form(request):
 def search(request):
     request.encoding = 'utf-8'
     if 'q' in request.GET:
-        message = '你搜索的内容为: ' + request.GET['q']
+        crawler(request.GET['q'])
+        message = '你搜索的内容为: ' + request.GET['q'] + crawler.begin()
     else:
         message = '你提交了空表单'
     return HttpResponse(message)
