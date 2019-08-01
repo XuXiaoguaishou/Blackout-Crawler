@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2984e383-6eed-4ab6-95cb-5b637bc634c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawler/crawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/crawler_selenium_newspapaer_recode1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/crawlerfuncs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Crawler-blackout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -123,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crawler_selenium_newspapaer_recode">
+  <component name="RunManager" selected="Django server.mysite">
     <configuration name="crawler_selenium_newspapaer_recode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mysite" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,6 +188,7 @@
       <workItem from="1563956699725" duration="6646000" />
       <workItem from="1564365205403" duration="1499000" />
       <workItem from="1564366857517" duration="7854000" />
+      <workItem from="1564538398662" duration="67000" />
     </task>
     <servers />
   </component>
@@ -210,13 +209,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mysite$crawler_selenium_newspapaer_recode.coverage" NAME="crawler_selenium_newspapaer_recode Coverage Results" MODIFIED="1564019335274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler" />
+    <SUITE FILE_PATH="coverage/mysite$crawler_selenium_newspapaer_recode.coverage" NAME="crawler_selenium_newspapaer_recode Coverage Results" MODIFIED="1564538404181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler" />
   </component>
 </project>
