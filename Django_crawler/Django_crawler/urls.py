@@ -1,4 +1,4 @@
-"""student_sys URL Configuration
+"""Django_crawler URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -14,11 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
 from django.conf.urls import url
-from student.views import IndexView
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$',IndexView.as_view(), name='index')
+    path('crawler/', include('crawler.urls')),
 ]

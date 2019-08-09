@@ -3,7 +3,8 @@ from .crawler_selenium_newspapaer_recode import crawler
 
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
-
+from django.views import generic
+from .models import Article, SearchRecord, Key
 
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
@@ -22,3 +23,20 @@ def search(request):
     else:
         message = '你提交了空表单'
     return HttpResponse(message)
+
+class ArticleView(generic.DetailView):
+    model = Article
+    template_name = 'polls/results.html'
+
+
+class SearchRecordView(generic.DetailView):
+    model = SearchRecord
+    template_name = 'polls/results.html'
+
+
+class KeyView(generic.DetailView):
+    model = Key
+    template_name = 'polls/results.html'
+
+
+

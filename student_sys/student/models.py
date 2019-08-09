@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.db import models
-from __future__ import unicode_literals
+
 # Create your models here.
 
 class Student(models.Model):
@@ -29,3 +29,11 @@ class Student(models.Model):
 
     class Meta:
         verbose_name = verbose_name_plural = "student_info"
+
+    @classmethod
+    def get_all(cls):
+        return cls.objects.all()
+
+    @property
+    def sex_show(self):
+        return dict(self.SEX_ITEMS)[self.sex]
