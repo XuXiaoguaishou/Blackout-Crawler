@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e2e741-c687-40f2-a837-55bb8b3f4908" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Django_crawler.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django_crawler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django_crawler/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django_crawler/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django_crawler/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/search_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mysite/crawler/Article.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../student_sys/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../student_sys/student/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../student_sys/student/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../student_sys/student/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../student_sys/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Blackout-Crawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Blackout-Crawler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysite/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysite/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysite/crawler/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/crawler/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysite/crawler/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/crawler/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysite/crawler/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/crawler/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../student_sys/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../student_sys/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../student_sys/student/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../student_sys/student/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../student_sys/student/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../student_sys/student/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../student_sys/student/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../student_sys/student/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../student_sys/student/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../student_sys/student/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../student_sys/student_sys/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../student_sys/student_sys/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../student_sys/student_sys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../student_sys/student_sys/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +140,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565316033460</updated>
-      <workItem from="1565316080176" duration="11822000" />
+      <workItem from="1565316080176" duration="12082000" />
+      <workItem from="1565352547499" duration="33000" />
     </task>
     <servers />
   </component>
@@ -194,7 +153,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
